@@ -7,8 +7,8 @@
       <MagicCubeEditor
         class="m-y-16px"
         v-model="formData.list"
-        :rows="4"
-        :cols="4"
+        :rows="6"
+        :cols="6"
         @hot-area-selected="handleHotAreaSelected"
       />
       <template v-for="(hotArea, index) in formData.list" :key="index">

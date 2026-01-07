@@ -72,12 +72,12 @@ type Cube = Point & { active: boolean }
 const props = defineProps({
   // 热区列表
   modelValue: vueTypes.array<any>().isRequired,
-  // 行数，默认 4 行
-  rows: propTypes.number.def(4),
-  // 列数，默认 4 列
-  cols: propTypes.number.def(4),
+  // 行数，默认 6 行
+  rows: propTypes.number.def(6),
+  // 列数，默认 6 列
+  cols: propTypes.number.def(6),
   // 方块大小，单位px，默认75px
-  cubeSize: propTypes.number.def(75)
+  cubeSize: propTypes.number.def(62.5)
 })
 
 // 魔方矩阵：所有的方块

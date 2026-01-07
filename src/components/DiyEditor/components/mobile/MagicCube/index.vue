@@ -3,7 +3,7 @@
     class="relative"
     :style="{
       height: `${rowCount * CUBE_SIZE}px`,
-      width: `${4 * CUBE_SIZE}px`,
+      width: `${6 * CUBE_SIZE}px`,
       padding: `${property.space}px`
     }"
   >
@@ -54,7 +54,7 @@ import { MagicCubeProperty } from './config'
 defineOptions({ name: 'MagicCube' })
 const props = defineProps<{ property: MagicCubeProperty }>()
 // 一个方块的大小
-const CUBE_SIZE = 93.75
+const CUBE_SIZE = 62.5
 /**
  * 计算方块的行数
  * 行数用于计算魔方的总体高度，存在以下情况：
